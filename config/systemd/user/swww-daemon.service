@@ -1,0 +1,11 @@
+[Unit]
+Description=swww-daemon for setting wallpapers
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/local/bin/swww-daemon
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+
