@@ -1,0 +1,32 @@
+[global]
+    font = Monospace 10
+    frame_width = 2
+    padding = 4
+    separator_height = 2
+    line_height = 0
+    horizontal_padding = 8
+    icon_position = left
+    corner_radius = 3
+    format = "%s\n%b"
+    markup = full
+    alignment = left
+    origin = top
+
+[urgency_low]
+    background = "#282828"      # bg1
+    foreground = "#A89984"      # grey2
+    frame_color = "#928374"     # grey1
+    timeout = 8
+
+[urgency_normal]
+    background = "#1D2021"      # bg0
+    foreground = "#D4BE98"      # fg0
+    frame_color = "#7C6F64"     # grey0
+    timeout = 8
+
+[urgency_critical]
+    background = "#EA6962"      # bg_red
+    foreground = "#DDC7A1"      # fg1
+    frame_color = "#E78A4E"     # orange
+    timeout = 0
+
